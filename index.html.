@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Guia</title>
+    <style>
+        body {
+            background: #101522;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+
+        header {
+            background: #087cff;
+            padding: 25px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 40px 20px;
+        }
+
+        .categoria {
+            background: #202c42;
+            padding: 20px;
+            margin: 15px auto;
+            border-radius: 12px;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PC GUIA</h1>
+        <p>Seu guia completo de peças de computador</p>
+    </header>
+
+    <main>
+        <h2>Conheça as peças de PC</h2>
+
+        <div class="categoria">🧠 Processadores</div>
+        <div class="categoria">🎮 Placas de vídeo</div>
+        <div class="categoria">💾 Memória RAM</div>
+        <div class="categoria">⚡ Fontes</div>
+        <div class="categoria">💿 SSD e HD</div>
+        <div class="categoria">🖥️ Placas-mãe</div>
+    </main>
+
+</body>
+</html>
